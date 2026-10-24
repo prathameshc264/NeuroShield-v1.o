@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+*/node_modules/
+venv/
+*/venv/
+.venv/
+*/.venv/
+
+# Next.js & Build Outputs
+.next/
+*/.next/
+out/
+*/out/
+dist/
+*/dist/
+build/
+*/build/
+
+# Python Cache
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Environment Variables
+.env
+.env*.local
+*.env
+*/.env*
+
+# Office / Word Temporary Lock Files
+~$*.docx
+~$*.doc
+~$*.pptx
+~$*.xlsx
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
